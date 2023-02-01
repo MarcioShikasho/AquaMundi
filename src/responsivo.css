@@ -1,0 +1,82 @@
+@media(max-width: 470px){
+    .navegacao .menu .item {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 515px){
+     td, th {
+        padding: 4px;
+     }
+}
+
+@media(max-width: 624px){
+    .cabecalho {
+        justify-content: center
+    }
+
+    .cabecalho .logo{
+        margin-bottom: 30px;
+    }
+
+    .cabecalho .menu .item a {
+        font-size: calc(0.6em + 1vw);
+    }
+}
+
+@media(max-width: 900px){
+    .conteudo-principal .paineis{
+        height: 500px;
+    }
+}
+
+
+@media(max-width: 940px){
+    .rodape .navegacao {
+        justify-content: center;
+    }
+    
+    .rodape .navegacao .logo {
+        margin-bottom: 30px;
+    }
+    
+    .rodape .navegacao .logo,
+    .rodape .navegacao .redes-sociais{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .horario-funcionamento-localizacao {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .horario-funcionamento-localizacao .horario-funcionamento {
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width: 1200px){
+    .quem-somos .conteudo {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 20px;
+    }
+
+    .quem-somos .conteudo .image {
+        display: none
+    }
+
+    .quem-somos .conteudo .informacoes {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1340px){
+    .horario-funcionamento-localizacao .horario-funcionamento{
+        padding: 0 10px 0 10px;
+    }
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta name="description" content="Somos uma loja especializada em aquarismo"/>
+
+    <link rel="shortcut icon" href="./src/imagens/favicon_package_v0.16/android-chrome-192x192.png" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="./src/reset.css"/>
+    <link rel="stylesheet" href="./src/style.css"/>
+    <link rel="stylesheet" href="./src/responsivo.css"/>
+    
+    <title>AquaMundi</title>
+    
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <a href="#" class="logo">
+        <img
+          src="./src/imagens/favicon_package_v0.16/android-chrome-192x192.png"
+          alt="logo"
+          class="imagem"
+        />
+        <span class="titulo">AquaMundi</span>
+      </a>
+
+      <nav class="navegacao">
+        <ul class="menu">
+          <li class="item">
+            <a href="#projetos">Projetos</a>
+          </li>
+
+          <li class="item">
+            <a href="#quem-somos">Quem Somos</a>
+          </li>
+
+          <li class="item">
+            <a href="#contato">Contato</a>
+          </li>
+
+          <li class="item">
+            <a href="#horarios">Horários</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="conteudo-principal" id="projetos">
+      <section class="paineis">
+        <h1 class="titulo">Nossos Projetos</h1>
+
+        <div class="imagem-painel projeto1 mostrar"></div>
+        <div class="imagem-painel projeto2"></div>
+        <div class="imagem-painel projeto3"></div>
+
+        <a href="#" id="btn-voltar" class="seta btn-voltar">voltar</a>
+        <a href="#" id="btn-avancar" class="seta btn-avancar">avançar</a>
+      </section>
+
+      <section class="quem-somos" id="quem-somos">
+        <div class="conteudo">
+          <div class="informacoes">
+            <h2 class="titulo">Quem Somos</h2>
+            <p class="texto">
+              Somos uma loja especializada em aquarismo desde de 1995, com
+              grande variedade de produtos nacionais e importados. A loja
+              começou em 1995 a partir de uma criação de peixes que começou em
+              1993, com a procura dos cliente por outros artigos para aquarismo
+              começou a surgir a loja física.
+            </p>
+          </div>
+
+          <img class="imagem" src="./src/imagens/quem-somos.jpeg" alt="imagem-quem-somos"/>
+        </div>
+      </section>
+
+      <section id="horarios" class="horario-funcionamento-localizacao">
+        <div class="horario-funcionamento">
+          <h2 class="titulo-horario-funcionamento">Horários de Funcionamento</h2>
+          <table class="tabela">
+            <thead>
+              <tr>
+                <th>seg</th>
+                <th>ter</th>
+                <th>qua</th>
+                <th>qui</th>
+                <th>sex</th>
+                <th>sáb</th>
+                <th>dom</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>10:00 às 19:00</td>
+                <td>10:00 às 19:00</td>
+                <td>10:00 às 19:00</td>
+                <td>10:00 às 19:00</td>
+                <td>10:00 às 19:00</td>
+                <td>09:00 às 16:00</td>
+                <td class="fechado">FECHADO</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="localizacao">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.5858582635215!2d-49.08931690701838!3d-22.334299264076215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf66566099cb1f%3A0x4675589152f1fe4c!2sAqua%20Mundi!5e0!3m2!1spt-BR!2sbr!4v1675255403973!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape" id="contato">
+      <nav class="navegacao">
+        <a href="#" class="logo">
+          <img
+            class="imagem"
+            src="./src/imagens/favicon_package_v0.16/android-chrome-192x192.png"
+            alt="logo"
+          />
+          <span class="titulo">AquaMundi</span>
+        </a>
+
+        <div class="redes-sociais">
+          <a
+            href="https://www.facebook.com/AQUAMUNDI.BAURU/"
+            class="rede-social"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/aquamundi_bauru/?hl=pt"
+            class="rede-social"
+            target="_blank"
+          >
+            <i class="fab fa-instagram-square"></i>
+          </a>
+
+          <a
+            href="https://www.tiktok.com/@aquamundibauru"
+            class="rede-social"
+            target="_blank"
+          >
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+
+          <a
+            href="https://Wa.me/551432361183"
+            class="rede-social"
+            target="_blank"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </nav>
+
+      <p class="copyright">© Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+  </body>
+</html>
